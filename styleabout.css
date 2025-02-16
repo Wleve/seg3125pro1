@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Screenshot\ 2025-02-12\ 182124.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    z-index: -1;
+    opacity: 0.8;
+}
+#Aboutus h1{
+    
+font-family: "Poppins", serif;
+    font-size: 56px;
+    text-shadow: #333 1px 1px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    font-weight: 800   ;
+
+
+}
+#Aboutus p{
+    font-family: "Poppins", serif;
+    font-size: auto;
+    text-align: left;
+    margin: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    flex: 1; 
+    color:#ffffff
+}
+
+#Aboutus img {
+    width: 25%; 
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    flex: 0.5; 
+}
+#Aboutus #side{
+    display:flex;
+    align-items: center;
+
+}
