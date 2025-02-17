@@ -2,8 +2,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <link rel="stylesheet" type="text/css" href="stylecart.css">
     <link rel="stylesheet" type="text/css" href="Style.css">
+<script src="cart.js"></script>
 </head>
 <div id="navbar">
     <ul>
@@ -13,26 +14,20 @@
      <li><a href="Contact.html">Contact</a></li>
      <li id="login"><a href="Login.html">Login</a></li>
      <li id="login"><a href="Signup.html">Sign up</a></li>
+     <li><a href="cart.html">Cart</a></li>
     </ul>
 </div>
+<div id="content">
+    <h1 id="cartheader">Your Cart</h1>
+    <div id="cart-items"></div>
+    <a href="./orderconfirmation.html"><button id="confirm-order" style="display: none;" onclick="confirmOrder()">Confirm Order</button></a>
 
-<body id="content">
-    <div id="box">
-        <h1 id="signupheader">Login</h1>
-        <form id="signupform">
-            <input type="text" id="email" name="email" placeholder="Email"> 
-            <input type="text" id="password" name="password" placeholder="Password">
-           
-             <button type="submit" id="loginbutton">Login</button> 
-        </form>
-        </div>
-    </body>
-
-
+</div>
 <footer id="footer">
     <div id="footer">
-        <p id="footerText">© 2025 William Levesque for SEG3125 at Uottawa
-        </p>
+        <p id="footerText">© 2025 William Levesque for SEG3125 at Uottawa</p>
     </div>
 </footer>
+<script src="cart.js"></script>
+</body>
 </html>
