@@ -22,6 +22,7 @@ body {
     height: auto;
     background-color: rgb(250, 186, 103);
     padding: 20px; 
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
 
 form {
